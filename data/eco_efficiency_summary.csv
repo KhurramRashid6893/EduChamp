@@ -1,0 +1,5 @@
+Agent Task,Duration (s),Energy (kWh),CO₂ (g),Model,Accuracy,Precision,Recall,F1-Score,Eco-Efficiency
+Decision Tree_Training,0.27,5e-06,0.0019,Decision Tree,0.5278,0.5287,0.5278,0.5282,277.7894736842106
+Logistic Regression_Training,0.86,1.9e-05,0.0065,Logistic Regression,0.597,0.5851,0.597,0.5749,91.84615384615384
+Random Forest_Training,3.42,7.6e-05,0.0266,Random Forest,0.6314,0.6202,0.6314,0.6187,23.736842105263158
+LSTM_Pattern_Discovery_Training,1106.85,0.024932,8.7069,LSTM Pattern Discovery,,,,,

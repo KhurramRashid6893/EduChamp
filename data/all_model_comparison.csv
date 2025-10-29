@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,MSE,R2
+Decision Tree,0.5278,0.5287,0.5278,0.5282,,
+Logistic Regression,0.597,0.5851,0.597,0.5749,,
+Random Forest,0.6314,0.6202,0.6314,0.6187,,
+LSTM (Pattern Discovery),0.9674665375850805,,,,0.0325334624149195,0.0909024018419834

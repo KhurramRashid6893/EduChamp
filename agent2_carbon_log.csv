@@ -1,0 +1,4 @@
+Agent Task,Duration (s),Energy (kWh),CO₂ (g)
+Decision Tree_Training,1.82,4.3e-05,0.015
+Logistic Regression_Training,0.5,1.2e-05,0.004
+Random Forest_Training,34.36,0.0008,0.2795

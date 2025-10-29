@@ -1,0 +1,35 @@
+
+# ============================================
+# 🧠 EduChampion: AI-Powered Sustainable Learning Analytics Dashboard
+# Author: Khurram Rashid
+# ============================================
+
+# Core Data & ML Libraries
+pandas
+numpy
+scikit-learn
+joblib
+
+# Deep Learning (LSTM)
+tensorflow==2.19.0
+keras==3.10.0
+
+# Visualization
+matplotlib
+plotly
+seaborn==1.6.1
+altair
+
+# Explainability (LIME)
+lime
+
+# Sustainability Tracking
+codecarbon
+
+# Web App Framework
+streamlit
+
+# Utility & Cloud Integration
+gdown
+protobuf
+
