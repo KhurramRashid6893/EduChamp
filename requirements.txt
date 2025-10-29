@@ -31,11 +31,11 @@ protobuf
 
 
 
-streamlit==1.50.0
-tensorflow-cpu==2.15.0
-keras==3.10.0
-scikit-learn==1.6.1
-codecarbon==3.0.7
+# streamlit==1.50.0
+# tensorflow-cpu==2.15.0
+# keras==3.10.0
+# scikit-learn==1.6.1
+# codecarbon==3.0.7
 pandas==2.3.3
 numpy==2.3.4
 matplotlib
