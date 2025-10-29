@@ -60,7 +60,7 @@ def load_models_and_preprocessor(base_path):
 
 def try_load_lstm(base_path):
     """Try to load LSTM model — returns model or (None, error_message)."""
-    lstm_path = os.path.join(base_path, "pattern_discovery_lstm_keras.h5")
+    lstm_path = os.path.join(base_path, "pattern_discovery_lstm.h5")
     if not os.path.exists(lstm_path):
         return None, f"LSTM file (pattern_discovery_lstm.h5) not found in working directory."
 
