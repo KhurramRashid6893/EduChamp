@@ -7,17 +7,17 @@
 # Core Data & ML Libraries
 pandas
 numpy
-scikit-learn
+scikit-learn==1.6.1
 joblib
 
 # Deep Learning (LSTM)
-# tensorflow==2.19.0
-# keras==3.10.0
+tensorflow==2.19.0
+keras==3.10.0
 
 # Visualization
 matplotlib
 plotly
-seaborn==1.6.1
+seaborn
 altair
 
 # Explainability (LIME)
