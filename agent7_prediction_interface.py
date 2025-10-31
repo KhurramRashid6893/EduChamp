@@ -130,16 +130,10 @@ def run_agent7_dashboard():
         
         lstm_model = st.session_state.lstm_model
     
-    # --- Conditionally run LSTM Engagement UI ---
+    # --- Conditionally add LSTM to model list ---
     if lstm_model:
         # Add the LSTM model to the main model dictionary for the *other* predictor
         models["LSTM (Final Result)"] = lstm_model
-        
-        st.sidebar.divider()
-        # Pass the loaded model to the new function (which is now imported)
-        # This function will also need to be fixed if it uses st.sidebar.spinner()
-        run_lstm_engagement_prediction(lstm_model)
-        st.sidebar.divider()
 
     # ----------------- Input Form (manual) -----------------
     st.subheader("📋 Manual Input (Final Result Prediction)")
@@ -329,6 +323,15 @@ def run_agent7_dashboard():
 
         except Exception as e:
             st.error(f"Batch processing failed: {e}")
+            
+            
+    # --- Conditionally run LSTM Engagement UI in Main Panel ---
+    if lstm_model:
+        st.divider()
+        st.header("📈 LSTM Engagement Trend Prediction")
+        # Pass the loaded model to the imported function
+        run_lstm_engagement_prediction(lstm_model)
+
 
 # Main entry point
 if __name__ == "__main__":
