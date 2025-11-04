@@ -166,7 +166,7 @@ def run_agent7_dashboard():
             "highest_education": highest_education,
             "imd_band": imd_band,
             "age_band": age_band,
-            "num_of_prev_attempts": num_of_prev_attempts,
+            "num_of_prev_attempts": num_prev_attempts,
             "studied_credits": studied_credits,
             "disability": disability,
             "total_clicks": total_clicks,
@@ -336,4 +336,3 @@ def run_agent7_dashboard():
 # Main entry point
 if __name__ == "__main__":
     run_agent7_dashboard()
-
