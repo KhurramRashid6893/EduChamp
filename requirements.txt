@@ -27,7 +27,8 @@ lime
 codecarbon
 
 # Web App Framework
-# streamlit
+streamlit>=1.28
+altair>=5.0.0
 
 # Utility & Cloud Integration
 gdown
