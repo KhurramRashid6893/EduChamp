@@ -27,7 +27,7 @@ lime
 codecarbon
 
 # Web App Framework
-streamlit
+# streamlit
 
 # Utility & Cloud Integration
 gdown
